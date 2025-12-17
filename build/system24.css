@@ -14,10 +14,10 @@ body {
     --font: 'DM Mono'; /* change to '' for default discord font */
     --code-font: 'DM Mono'; /* change to '' for default discord font */
     font-weight: 300; /* text font weight. 300 is light, 400 is normal. DOES NOT AFFECT BOLD TEXT */
-    letter-spacing: -0.05ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/
+    letter-spacing: -0.06ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/
 
     /* sizes */
-    --gap: 12px; /* spacing between panels */
+    --gap: 15px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
     --border-thickness: 2px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
     --border-hover-transition: 0.2s ease; /* transition for borders when hovered */
@@ -28,7 +28,7 @@ body {
     --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
 
     /* top bar options */
-    --top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
+    --top-bar-height: 30px; /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
     --top-bar-button-position: titlebar; /* off: default position, hide: hide buttons completely, serverlist: move inbox button to server list, titlebar: move inbox button to channel titlebar (will hide title) */
     --top-bar-title-position: off; /* off: default centered position, hide: hide title completely, left: left align title (like old discord) */
     --subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */
@@ -93,7 +93,7 @@ body {
     --bg-1: oklch(31% 0 0); /* dark buttons when clicked */
     --bg-2: oklch(27% 0 0); /* dark buttons */
     --bg-3: oklch(23% 0 0); /* spacing, secondary elements */
-    --bg-4: oklch(19% 0 0); /* main background color */
+    --bg-4: oklch(0% 0 0); /* main background color */
     --hover: oklch(54% 0 0 / 0.1); /* channels and buttons when hovered */
     --active: oklch(54% 0 0 / 0.2); /* channels and buttons when clicked or selected */
     --active-2: oklch(54% 0 0 / 0.3); /* extra state for transparent buttons */
@@ -113,8 +113,8 @@ body {
 
     /* status indicator colors */
     --online: var(--green-2); /* change to #40a258 for default */
-    --dnd: var(--red-2); /* change to #d83a41 for default */
-    --idle: var(--yellow-2); /* change to #cc954c for default */
+    --dnd: #d83a41; /* change to #d83a41 for default */
+    --idle: #cc954c; /* change to #cc954c for default */
     --streaming: var(--purple-2); /* change to ##9147ff for default */
     --offline: var(--text-4); /* change to #82838b for default offline color */
 
