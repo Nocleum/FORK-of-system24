@@ -503,6 +503,7 @@ body {
     ._44b0c28be7879b7b-svg > foreignObject,
     ._2338f50c3988e5ec-svg > foreignObject {
         mask: none;
+        border-radius: 50px !important;
     }
 
     ._44b0c28be7879b7b-wrapper,
@@ -518,11 +519,12 @@ body {
         content: '';
         display: block;
         position: absolute;
-        height: 8px;
-        width: 8px;
-        bottom: -4px;
-        right: -4px;
+        height: 12px;
+        width: 12px;
+        bottom: -3px;
+        right: -3px;
         border: 2px solid var(--background-base-lower);
+        border-radius: 50px !important;
     }
     ._44b0c28be7879b7b-wrapper:has(rect[fill='#43a25a'])::after,
     ._1ce5d425feffd32a-container:has(.a423bdd721ddcc83-status[style='background-color: rgb(67, 162, 90);'])::after {
@@ -563,4 +565,3 @@ body {
         border-radius: 0 !important;
     }
 }
-
